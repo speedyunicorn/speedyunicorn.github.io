@@ -2,4 +2,4 @@
 
 This is just a set of examples created in the process of learning JavaScript.
 
-Final result could be seen here: speedyunicorn.github.io
+Final result could be seen here: http://speedyunicorn.github.io

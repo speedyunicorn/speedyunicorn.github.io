@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 7 - Hangman!</title>
+    <link href="../styles/main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+<script type="application/javascript">
+    var words = [
+        "javascript",
+        "tree",
+        "animal",
+        "chair",
+        "ipod",
+        "computer",
+        "nature",
+        "flower",
+        "love",
+        "opera"
+    ];
+
+    var word = words[Math.floor(Math.random() * words.length)];
+
+
+    console.log("word = " + word);
+    // console.log("words.length = " + words.length);
+    // console.log("random = " + Math.floor(Math.random() * words.length));
+
+</script>
+</body>
+</html>
