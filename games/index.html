@@ -6,8 +6,14 @@
 </head>
 <body>
     <h1> Play It!</h1>
+    <div id="timestamp"></div>
+    <input type="button" value="Reload" onclick="reload()"/>
 <script>
-    window.alert("Play It!")
+    document.getElementById("timestamp").innerHTML = Date.now();
+//    window.alert("Play It!")
+    function reload() {
+        location.reload(true)
+    }
 </script>
 </body>
 </html>
