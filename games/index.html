@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>PlayIt!</title>
+    <link href="../styles/games-main.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
     <h1> Play It!</h1>
     <div id="timestamp"></div>
     <input type="button" value="Reload" onclick="reload()"/>
+
+    <div class="div-table">
+        <div class="div-row">
+            <div class="div-cell">*</div>
+            <div class="div-cell">*</div>
+        </div>
+        <div class="div-row">
+            <div class="div-cell">*</div>
+            <div class="div-cell">*</div>
+        </div>
+    </div>
 <script>
     document.getElementById("timestamp").innerHTML = Date.now();
 //    window.alert("Play It!")

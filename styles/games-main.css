@@ -1,0 +1,24 @@
+body{
+
+}
+
+
+.div-table{
+    margin-top: 50px;
+    display: table;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.div-row{
+    display: table-row;
+    /*width: 80%;*/
+}
+
+.div-cell{
+    display: table-cell;
+    border: solid 1px orangered;
+    height: 200px;
+    width: 50%;
+    cursor: hand;
+}
